@@ -29,10 +29,10 @@ local function loadBootOptions()
 			preload = { },
 			menu = {
 				{ prompt = os.version() },
-				{ prompt = 'Opus'         , args = { '/sys/boot/opus.lua' } },
-				{ prompt = 'Opus Shell'   , args = { '/sys/boot/opus.lua', '/sys/apps/shell.lua' } },
-				{ prompt = 'Opus Kiosk'   , args = { '/sys/boot/kiosk.lua' } },
-				{ prompt = 'Opus TLCO'    , args = { '/sys/boot/tlco.lua' } },
+				{ prompt = 'TIGDows'         , args = { '/sys/boot/opus.lua' } },
+				{ prompt = 'TIGDows Shell'   , args = { '/sys/boot/opus.lua', '/sys/apps/shell.lua' } },
+				{ prompt = 'TIGDows Kiosk'   , args = { '/sys/boot/kiosk.lua' } },
+				{ prompt = 'TIGrosoft TLCO'    , args = { '/sys/boot/tlco.lua' } },
 			},
 		}))
 		f.close()
@@ -133,7 +133,7 @@ local function splash()
 
 	term.setTextColor(colors.white)
 	if not term.isColor() then
-		local str = 'Opus OS'
+		local str = 'TIGDows 1.0'
 		term.setCursorPos((w - #str) / 2, h / 2)
 		term.write(str)
 	else
