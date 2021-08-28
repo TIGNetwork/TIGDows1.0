@@ -29,8 +29,8 @@ local page = UI.Page {
 	menuBar = UI.MenuBar {
 		buttons = {
 			{ text = 'Connect', dropdown = {
-				{ text = 'Telnet      t', event = 'telnet' },
-				{ text = 'VNC         v', event = 'vnc'    },
+				{ text = 'BPS TelNet      t', event = 'telnet' },
+				{ text = 'BPS VNC      v', event = 'vnc'    },
 				{ spacer = true },
 				{ text = 'Reboot      r', event = 'reboot' },
 			} },
