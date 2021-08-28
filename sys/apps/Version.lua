@@ -12,7 +12,7 @@ UI:setPage(UI.Page {
     UI.Text {
         x = 2, y = 2, ex = -2,
         align = 'center',
-        value = 'Opus has been updated.',
+        value = 'TIGDows has been updated.',
         textColor = 'yellow',
     },
     UI.TextArea {
